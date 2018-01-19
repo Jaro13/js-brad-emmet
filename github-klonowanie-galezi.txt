@@ -1,0 +1,29 @@
+
+
+
+
+git clonowanie brach
+
+git jak wysyłać branch 
+
+git clone --bare naza-repo .git (2 raz git na koncu)
+
+git config --bool core.bare false
+
+git reset --hard
+
+lista gałęzi
+
+git brach
+
+
+
+git checkout nazw-galezi
+
+jesli chcemy porzucić modyfikacje w obecnej galezi i wejsc do innej
+
+git stach && git checkout nazwa-galezi
+
+
+
+

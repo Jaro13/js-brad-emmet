@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- BASIC TAGS, CLASSES & IDS -->
+
+  <!-- div -->
+  <div>to jest div - wpisujemy div i tab</div>
+
+  <!-- h1 -->
+  <h1>h1 oraz tabl</h1>
+  <!-- Common Shortcuts bq hdr ftr btn -->
+  <blockquote>blockquote</blockquote>
+  <header>to jest header</header>
+  <button>to jest przycisk</button>
+  <!-- h1.myheading -->
+  <h1 class="jakiesheading">h1 z class po kropce jakis heading</h1>
+
+  <!-- div.myclass OR .myclass -->
+  <div class="mojaklasa">to jest div z moja klasa</div>
+
+  <!-- .class1.class2 -->
+  <h1 class="myheading">to jest moj heading</h1>
+  <div class="class1 class2">teraz 2 klasy</div>
+
+  <!-- div#myid or #myid -->
+  <div id="mojeid">to jest div z moje id</div>
+  <div id="my">to jest div z my</div>
+  <!-- #myid.myclass -->
+
+
+  <!-- ADDING CONTENT {} -->
+
+  <!-- h1{My Title} -->
+  <h1>to jest tytul</h1>
+
+
+
+  <!-- h1.red{My Red Title} -->
+
+  <!-- p>{Click }+a{here}+{ to continue} -->
+
+
+  <!-- NESTING -->
+
+  <!-- div>ul>li*3 -->
+  <div>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+  </div>
+
+  <!-- div>ul>li{List Item 1} -->
+
+
+
+
+  <!-- MULTIPLICATION * -->
+
+  <!-- ul#navigation>li*5>{List Item 1} -->
+
+
+
+  <!-- SIBLINGS + -->
+
+  <!-- div+ul+li -->
+
+  <!-- h1.title+p.body -->
+
+  <!-- div>h1.title+p.body -->
+
+
+  <!-- GROUPIONG () -->
+
+  <!-- div>(header>ul>li*2>a)+footer>p -->
+  <div>
+    <header>
+      <ul>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+    </header>
+    <footer>
+      <p></p>
+    </footer>
+  </div>
+
+  <!-- ATTRIBUTES -->
+
+  <!-- a[href="http://google.com" target="_blank"] -->
+
+
+
+  <!-- FORMS & INPUT -->
+
+  <!-- form -->
+  <form action="">to jest form</form>
+  <!-- form:get -->
+  <form action="" method="get">to jest form get</form>
+  <!-- form:post -->
+  <form action="" method="post">to jest form post</form>
+  <!-- label -->
+  <label for="">to jest label</label>
+  <!-- input -->
+  <input type="text">
+
+  <!-- inp -->
+  <input type="text" name="" id="">
+
+  <!-- input:email -->
+
+  <!-- input:s -->
+
+  <!-- select -->
+  <select name="" id="">to jest select field</select>
+
+
+  <!-- EXTENDED STRUCTURE + -->
+
+  <!-- select+ -->
+  <select name="" id=""></select>
+  <!-- table+ -->
+
+
+  <!-- ol+ -->
+
+  <!-- ul+ -->
+
+
+
+
+  <!-- CUSTOM ALIASES edit snippets.json file -->
+
+  <!-- post -->
+
+
+  <!-- DOCTYPE AND STRUCTURE -->
+
+  <!-- ! -->
+
+  <!-- html:5 -->
+
+  <!-- html:4t -->
+
+  <!-- LOREM IPSUM GENERATOR -->
+
+  <!-- lorem -->
+  Lorem, ipsum.
+  <!-- lorem10 -->
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, ea.
+  <!-- ul.mylist>lorem10.item*4 -->
+  <ul class="mylist">
+    <li class="item">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, corrupti?</li>
+    <li class="item">Neque officia est rerum voluptas maiores voluptatem quod dolorum excepturi.</li>
+    <li class="item">Magni, dolorum nemo? Eaque doloremque labore, amet libero quas unde.</li>
+    <li class="item">Commodi similique laudantium molestiae corrupti quidem maiores neque. Et, ea.</li>
+  </ul>
+
+  <!--
+  script:src 
+  link
+
+  link:css 
+a
+img
+form:post
+form:get
+
+to jest button submit
+
+btn:s
+
+table+
+tr+
+select+
+
+super forms
+https://tfrommen.de/emmet-speed-up-your-markup/
+
+So, form>input*3+button:submit will generate the following markup:
+
+<form action="|"><input type="text"><input type="text"><input type="text">
+  <button type="submit"></button>
+</form>
+
+Let’s try straightforward 
+
+form>label>input*3+button:submit
+
+
+form>label*3>input+button:submit
+
+form>(label>input)*3+button:submit
+
+form>(label>input:radio+lorem8)*3
+
+
+takze wykrzyknik - html5 boiler - !
+
+table>tr>td+td^^hr
+
+
+
+
+  -->
+
+  <!-- 
+  form>label>input*3+button:submit
+-->
+  <form action="">
+    <label for="">
+      <input type="text">
+      <input type="text">
+      <input type="text">
+      <button type="submit">przycisk submit</button>
+    </label>
+  </form>
+
+
+
+  <form action="">
+    <label for="">
+      <input type="text">
+    </label>
+    <label for="">
+      <input type="text">
+    </label>
+    <label for="">
+      <input type="text">
+    </label>
+    <button type="submit">ok</button>
+  </form>
+
+
+  <form action="">
+    <label for="">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+      <input type="radio" name="" id="">
+    </label>
+    <label for="">In, deserunt! Quam odit impedit similique tenetur ullam.
+      <input type="radio" name="" id="">
+    </label>
+    <label for="">Error sapiente alias itaque labore. Tempora, deleniti? Fuga.
+      <input type="radio" name="" id="">
+    </label>
+  </form>
+
+
+
+
+
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+
+</html>
